@@ -66,7 +66,7 @@ Also if you need an iGate or Digipeater, check out:
 - **VHF Low Pass Filter** : Available (7 elements)
 - **VHF Max Radio Power** : 20 dBm
 - **Antenna Connectors** : SMA Female (Antennas not included)
-- **GPS** : [Quectel L96](https://www.quectel.com/product/gnss-l96/)
+- **GPS** : [Quectel L96](https://www.quectel.com/product/gnss-l96/) (GPS+GLONASS+Galileo)
 - **Cutdown / Pyro** : 2 channels
 - **Other** : Buzzer, Status LED, Flash LED, Battery voltage monitoring
 - **Battery Holder** : 3 x AA (Batteries not included)
