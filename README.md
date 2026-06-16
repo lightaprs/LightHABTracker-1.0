@@ -87,11 +87,15 @@ Download and install [Arduino IDE](https://www.arduino.cc/en/Main/Software). If 
 - Open the **Tools > Board > Boards Manager...** menu item.
 - Type "Arduino SAMD" in the search bar until you see the **Arduino SAMD Boards (32-Bits Arm Cortex-M0+)** entry and click on it.
 
+![image](https://user-images.githubusercontent.com/48382675/135891280-ad4eb226-dc00-4ff9-8332-a57fa986d16f.png)
+
 **IMPORTANT:** Do not use the latest version. Choose version **1.8.12**. If you choose later versions, you may get a "**bin/avrdude: bad CPU type in executable**" error.
 
 - Click **Install** .
 - After installation is complete, close the **Boards Manager** window.
 - Open the **Tools > Board** menu item and select **Arduino SAMD Boards (32-Bits Arm Cortex-M0+) -> Arduino M0** from the list.
+
+![image](https://user-images.githubusercontent.com/48382675/135892579-8fb214f0-07ad-485d-9aba-d51d7acf9a16.png)
 
 ### 3.Copy Libraries & Compile Source Code
 
@@ -105,6 +109,8 @@ You are almost ready to programme LightHABTracker :)
 
   **Mac** : /Users/\<username\>/Documents/Arduino/libraries/
 
+<img src="images/lightaprs-library-copy.png" width="600">
+
   The included libraries are: `ZeroAPRS`, `ZeroSi4463`, `RadioLib`, `TinyGPSPlus`, `SparkFun_BME280`, `Arduino-MemoryFree` and `LightHABLib`.
 
 **IMPORTANT :** LightHABTracker uses additional libraries compared to other Light* trackers. Even if you copied libraries for another board before, copy these again. Otherwise you will get a compile error.
@@ -115,13 +121,14 @@ You are almost ready to programme LightHABTracker :)
   - (Optional) Configure cutdown in `cutDownConfig` (set `enabled` and a `secret`).
 - Click **Verify** (If you get compile errors, check the steps above).
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/48382675/192628201-8b7449dc-74b6-4869-8e89-a8d5a3fbbcb8.png">
+
 ### 4.Upload
 
 - First attach the proper antennas to your tracker. The radio modules may be damaged if operated without an antenna, since the power has nowhere to go.
-- Connect LightHABTracker to your computer with a USB (Type-C) cable, then you should see a COM port under the **Tools->Port** menu item. Select that port.
+- Connect LightHABTracker to your computer with a USB cable, then you should see a COM port under the **Tools->Port** menu item. Select that port.
 - Click **Upload**
 - Your tracker is ready to launch :)
-
 
 ## Support
 
