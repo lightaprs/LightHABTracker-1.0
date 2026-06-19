@@ -8,7 +8,7 @@ Because LightHABTracker is open source you can add your own custom sensors via I
 
 <img src="images/lighthab_tracker_front.jpg" width="600">
 
-LightHABTracker will be available on https://shop.qrp-labs.com/ for order soon.
+LightHABTracker is available on https://shop.qrp-labs.com/aprs/LightHABTracker for order.
 
 **Note :** Antennas and batteries are **not included** in the package. The board provides SMA Female antenna connectors and a 3 x AA battery holder, so you can attach your own antennas and batteries (Energizer Ultimate Lithium recommended).
 
