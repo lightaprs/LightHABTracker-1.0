@@ -215,7 +215,7 @@ enum FlightPhases {
 int8_t flightStatus = INITIALIZING; //-1:INITIALIZING 0:READY TO LAUNCH 1:ASCENDING 2:DESCENDING 3:LANDED 4:RECOVERY
 
 //********************************* Flash LED Settings ******************************
-bool enableFlashLEDBlinkInLoop = false; //Set false if you don't need Flash LED
+bool enableFlashLEDBlinkInLoop = true; //Set false if you don't need Flash LED
 bool doNotBlinkDuringDay = true; //Do not blink Flash LED at day light to save the batteries
 uint8_t flightStatusLevelForLEDBlink = 1; //3:Only during landed 2: Descending and landed 1: Ascending, descending and landed 0: All the time
 float maxFlashLEDAltitude = 10000.f; //Feet. Altitude limit for Flash LED, it won't blink above this limit
@@ -225,7 +225,7 @@ uint16_t flashLEDBlinkTimeON = 100; //Miliseconds. Delay time while LED ON
 uint16_t flashLEDBlinkTimeOFF = 300; //Miliseconds. Delay time while LED OFF
 
 //************************ Buzzer Settings ************************
-bool enableBuzzerInLoop = false; //Sound buzzer regularly if balloon is landed
+bool enableBuzzerInLoop = true; //Sound buzzer regularly if balloon is landed
 uint16_t buzzerSoundInterval = 60000; //Miliseconds. Delay time for buzzer sound
 uint8_t soundBuzzerCount = 5;
 uint16_t soundBuzzerTimeON = 200; //Miliseconds. Delay time while Buzzer ON
